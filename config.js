@@ -41,12 +41,12 @@ module.exports = {
       nodes: [
     {
         name: "Node #1",
-        host: "lava-all.ajieblogs.eu.org",
-        port: 443,
-        password: "youshallnotpass",
+        host: "lavalink-legacy.jompo.cloud",
+        port: 2333,
+        password: "jompo",
         reconnectTimeout: 5000,
         reconnectTries: Infinity,
-        secure: true
+        secure: false
     },
  ]
 }
