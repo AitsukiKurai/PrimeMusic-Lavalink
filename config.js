@@ -39,12 +39,12 @@ module.exports = {
   nodes: [
     {
         name: "Server",
-        host: "nodev4.fypmoon.org",
-        port: 1118,
-        password: "fypmoon.org",
+        host: "lavalink-v4.huntools-bot.xyz",
+        port: 443,
+        password: "horizxon.tech",
         reconnectTimeout: 5000,
         reconnectTries: Infinity,
-        secure: false
+        secure: true
     },
  ]
 }
