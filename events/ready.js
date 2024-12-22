@@ -43,7 +43,7 @@ module.exports = async (client) => {
   
    const status = await client.user.setActivity({
         type: ActivityType.Custom,
-        name: "繁栄と許しを祈ります..."
+        name: "人の一生は朝霧のように一瞬で、運命は虚無に忘れ去られるように定められている"
     });
 
     client.errorLog = config.errorLog;
