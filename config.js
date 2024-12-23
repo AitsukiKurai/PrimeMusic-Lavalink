@@ -37,9 +37,9 @@ module.exports = {
 nodes: [
     {
         name: "UWU",
-        host: "lavav4.prplmoe.me",
-        port: 1118,
-        password: "prplmoe.me",
+        host: "node.lewdhutao.my.eu.org",
+        port: 80,
+        password: "youshallnotpass",
         reconnectTimeout: 5000,
         reconnectTries: Infinity,
         secure: false
