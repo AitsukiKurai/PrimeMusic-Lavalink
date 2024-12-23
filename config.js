@@ -37,9 +37,9 @@ module.exports = {
 nodes: [
     {
         name: "UWU",
-        host: "lava-v4.ajieblogs.eu.org",
-        port: 80,
-        password: "https://dsc.gg/ajidevserver",
+        host: "lava.inzeworld.com",
+        port: 3128,
+        password: "saher.inzeworld.com",
         reconnectTimeout: 5000,
         reconnectTries: Infinity,
         secure: false
