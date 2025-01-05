@@ -1,5 +1,5 @@
 const { SlashCommandBuilder } = require('discord.js');
-
+const config = require("../config.js");
 module.exports = {
 data: new SlashCommandBuilder()
 .setName('say')
