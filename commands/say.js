@@ -1,16 +1,22 @@
-const { SlashCommandBuilder } = require('discord.js');
-const config = require("../config.js");
+const { SlashCommandBuilder } = require('@discordjs/builders');
+
 module.exports = {
-data: new SlashCommandBuilder()
-.setName('say')
-.setDescription('Make the bot repeat a message')
-.addStringOption(option =>
-option.setName('message')
-.setDescription('The message to repeat')
-.setRequired(true)
-),
-async execute(interaction, client) {
-const message = interaction.options.getString('message');
-await interaction.reply(message);
-},
+    data: new SlashCommandBuilder()
+        .setName('say')
+        .setDescription('Makes the bot say something')
+        .addStringOption(option =>
+            option.setName('input')
+                .setDescription('The text to make the bot say')
+                .setRequired(true)
+        ),
+    async execute(interaction) {
+        const input = interaction.options.getString('input');
+
+        try {
+            await interaction.reply(input);
+        } catch (error) {
+            console.error(error);
+            await interaction.reply('Có lỗi xảy ra khi thực hiện lệnh này.');
+        }
+    },
 };
