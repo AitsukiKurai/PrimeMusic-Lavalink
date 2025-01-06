@@ -26,7 +26,7 @@ module.exports = {
   commandsDir: './commands',  
   embedColor: "#1db954",
   musicardTheme:"themes16", //Goes from themes1 to themes19
-  SupportServer: "https://discord.gg/xQF9f9yUEM",
+  SupportServer: "https://discord.gg/3KRSK7eF3H",
   CheckmarkIcon: "https://cdn.discordapp.com/emojis/819446784647757834.gif",
   MusicIcon:"https://cdn.discordapp.com/emojis/763415718271385610.gif",
   embedTimeout: 5,  // Timeout before the button interaction embeds are deleted ( Default - 5 seconds)
