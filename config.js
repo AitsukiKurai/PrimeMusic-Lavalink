@@ -36,10 +36,10 @@ module.exports = {
 
 nodes: [
     {
-        name: "UWU",
-        host: "lava.inzeworld.com",
-        port: 3128,
-        password: "saher.inzeworld.com",
+        name: "Arise",
+        host: "lavav4.prplmoe.me",
+        port: 1118,
+        password: "prplmoe.me",
         reconnectTimeout: 5000,
         reconnectTries: Infinity,
         secure: false
