@@ -43,8 +43,8 @@ module.exports = async (client) => {
         //console.log(`🎵 Now Playing: ${trackName}`);
 
         client.user.setActivity({
-            name: `🎸 ${trackName}`,
-            type: ActivityType.Playing
+            name: `人の一生は朝霧のように一瞬で、運命は虚無に忘れ去られるように定められている`,
+            type: ActivityType.Custom
         });
     }
 
