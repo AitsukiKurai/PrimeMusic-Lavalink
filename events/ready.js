@@ -24,11 +24,27 @@ module.exports = async (client) => {
 
     async function updateStatus() {
  
+        const activePlayers = Array.from(client.riffy.players.values()).filter(player => player.playing);
 
-    const status = await client.user.setActivity({
-        type: ActivityType.Custom,
-        name: "人の一生は朝霧のように一瞬で、運命は虚無に忘れ去られるように定められている"
-    });
+        if (!activePlayers.length) {
+            //console.log("⏹️ No song is currently playing. Setting default status.");
+            client.user.setActivity(defaultActivity);
+            return;
+        }
+
+        const player = activePlayers[0];
+
+        if (!player.current || !player.current.info || !player.current.info.title) {
+            //console.log("⚠️ Current track info is missing. Keeping default status.");
+            return;
+        }
+
+        const trackName = player.current.info.title;
+        //console.log(`🎵 Now Playing: ${trackName}`);
+
+        client.user.setActivity({
+            name: `人の一生は朝霧のように一瞬で、運命は虚無に忘れ去られるように定められている`,
+            type: ActivityType.Custom
         });
     }
 
