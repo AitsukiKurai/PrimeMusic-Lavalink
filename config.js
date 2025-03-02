@@ -9,7 +9,7 @@ module.exports = {
   commandsDir: './commands',  
   embedColor: "#1db954",
   activityName: "星と君:が消えた日", 
-  activityType: "LISTENING",  // Available activity types : LISTENING , PLAYING
+  activityType: "Listening",  // Available activity types : LISTENING , PLAYING
   SupportServer: "https://discord.gg/xQF9f9yUEM",
   embedTimeout: 5, 
   errorLog: "", 
