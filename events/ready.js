@@ -24,7 +24,7 @@ module.exports = async (client) => {
 
     async function updateStatus() {
  
-        const activePlayers = Array.from(client.riffy.players.values()).filter(player => player.Listening);
+        const activePlayers = Array.from(client.riffy.players.values()).filter(player => player.playing);
 
         if (!activePlayers.length) {
             //console.log("⏹️ No song is currently playing. Setting default status.");
@@ -44,7 +44,7 @@ module.exports = async (client) => {
 
         client.user.setActivity({
             name: ` ${trackName}`,
-            type: ActivityType.Listening
+            type: ActivityType.Playing
         });
     }
 
