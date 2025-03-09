@@ -22,20 +22,20 @@ module.exports = async (client) => {
         type: ActivityType.Listening,
     };
 
-    const statusMessages = config.statusMessages; // Lấy statusMessages từ config
+    const statusMessages = config.statusMessages;
     let statusIndex = 0;
-    const statusArray = [statusMessages]; // Tạo mảng chứa statusMessages
+    const statusArray = [statusMessages];
 
     async function updateStatus() {
         const activePlayers = Array.from(client.riffy.players.values()).filter(player => player.playing);
 
         if (!activePlayers.length) {
-            // Hiển thị statusMessages khi không có bài hát đang phát
+            // Hiển thị statusMessages khi không có bài hát
             client.user.setActivity({
                 name: statusArray[statusIndex],
                 type: ActivityType.Listening,
             });
-            statusIndex = (statusIndex + 1) % statusArray.length; // Chuyển đến status tiếp theo
+            statusIndex = (statusIndex + 1) % statusArray.length;
             return;
         }
 
@@ -47,8 +47,9 @@ module.exports = async (client) => {
 
         const trackName = player.current.info.title;
 
+        // Hiển thị cả tên bài hát và statusMessages khi đang phát nhạc
         client.user.setActivity({
-            name: `🎶 ${trackName}`,
+            name: ` ${trackName} - ${statusMessages}`,
             type: ActivityType.Listening,
         });
     }
