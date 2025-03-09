@@ -19,12 +19,12 @@ module.exports = async (client) => {
 
     const defaultActivity = {
         name: config.activityName,
-        type: ActivityType[config.activityType.toUpperCase()]
+        type: ActivityType.Listening // Thay đổi thành Listening
     };
 
     async function updateStatus() {
- 
-        const activePlayers = Array.from(client.riffy.players.values()).filter(player => player.Playing);
+
+        const activePlayers = Array.from(client.riffy.players.values()).filter(player => player.playing);
 
         if (!activePlayers.length) {
             //console.log("⏹️ No song is currently playing. Setting default status.");
@@ -40,11 +40,11 @@ module.exports = async (client) => {
         }
 
         const trackName = player.current.info.title;
-        //console.log(`🎵 Now Listening: ${trackName}`);
+        //console.log(`🎵 Now Playing: ${trackName}`);
 
         client.user.setActivity({
-            name: `${trackName}`,
-            type: ActivityType.LISTENING
+            name: `🎶 ${trackName}`, // Thêm biểu tượng nốt nhạc cho phù hợp
+            type: ActivityType.Listening // Thay đổi thành Listening
         });
     }
 
