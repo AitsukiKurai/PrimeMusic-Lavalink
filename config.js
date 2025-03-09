@@ -12,6 +12,7 @@ module.exports = {
   embedColor: "#1db954",
   activityName: "聲の形" ,
   statusMessages: "A" ,
+  statusArray: "T" ,
   SupportServer: "https://discord.gg/xQF9f9yUEM",
   embedTimeout: 5, 
   errorLog: "", 
