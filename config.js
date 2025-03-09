@@ -10,8 +10,7 @@ module.exports = {
   setupFilePath: './commands/setup.json',
   commandsDir: './commands',  
   embedColor: "#1db954",
-  activityName: "tess", 
-  activityType: "Listening",  // Available activity types : LISTENING , PLAYING
+  activityName: "tess" ,
   SupportServer: "https://discord.gg/xQF9f9yUEM",
   embedTimeout: 5, 
   errorLog: "", 
