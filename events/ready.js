@@ -5,38 +5,6 @@ module.exports = async (client) => {
     // ... (phần đăng ký lệnh)
 
     const defaultActivity = {
-        name: config.activityName + " " + config.statusMessages, // Thêm statusMessages vào tên hoạt động
-        type: ActivityType.Listening
-    };
-
-    async function updateStatus() {
-        // ... (phần kiểm tra bài hát)
-
-        if (!activePlayers.length) {
-            client.user.setActivity(defaultActivity);
-            return;
-        }
-
-        // ... (phần hiển thị tên bài hát)
-    }
-
-    setInterval(updateStatus, 5000);
-
-    client.errorLog = config.errorLog;
-};
-2. Hiển thị thông báo xen kẽ với tên bài hát:
-
-Bạn có thể tạo một mảng các trạng thái hoạt động và thay đổi chúng theo chu kỳ.
-
-JavaScript
-
-const config = require("../config.js");
-const { ActivityType } = require("discord.js");
-
-module.exports = async (client) => {
-    // ... (phần đăng ký lệnh)
-
-    const defaultActivity = {
         name: config.activityName,
         type: ActivityType.Listening
     };
