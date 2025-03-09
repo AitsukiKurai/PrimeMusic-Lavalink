@@ -11,6 +11,7 @@ module.exports = {
   commandsDir: './commands',  
   embedColor: "#1db954",
   activityName: "聲の形" ,
+  statusMessages: "繁栄と許しを祈ります..." , 
   SupportServer: "https://discord.gg/xQF9f9yUEM",
   embedTimeout: 5, 
   errorLog: "", 
