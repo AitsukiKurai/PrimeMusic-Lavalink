@@ -19,7 +19,7 @@ module.exports = async (client) => {
 
     const defaultActivity = {
         name: config.activityName,
-        type: ActivityType.Listening // Thay đổi thành Listening
+        type: ActivityType[config.activityType.toUpperCase()]
     };
 
     async function updateStatus() {
