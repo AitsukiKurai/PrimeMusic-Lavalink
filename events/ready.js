@@ -40,11 +40,11 @@ module.exports = async (client) => {
         }
 
         const trackName = player.current.info.title;
-        //console.log(`🎵 Now Playing: ${trackName}`);
+        //console.log(`🎵 Now Listening: ${trackName}`);
 
         client.user.setActivity({
             name: `${trackName}`,
-            type: ActivityType.Listening
+            type: ActivityType.Playing
         });
     }
 
