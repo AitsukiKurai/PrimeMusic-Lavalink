@@ -19,12 +19,12 @@ module.exports = async (client) => {
 
     const defaultActivity = {
         name: config.activityName,
-        type: ActivityType.Listening
+        type: ActivityType[config.activityType.toUpperCase()]
     };
 
     async function updateStatus() {
  
-        const activePlayers = Array.from(client.riffy.players.Listening()).filter(player => player.playing);
+        const activePlayers = Array.from(client.riffy.players.values()).filter(player => player.playing);
 
         if (!activePlayers.length) {
             //console.log("⏹️ No song is currently playing. Setting default status.");
@@ -43,8 +43,8 @@ module.exports = async (client) => {
         //console.log(`🎵 Now Playing: ${trackName}`);
 
         client.user.setActivity({
-            name: ` ${trackName}`,
-            type: ActivityType.Listening
+            name: `🎸 ${trackName}`,
+            type: ActivityType.Playing
         });
     }
 
