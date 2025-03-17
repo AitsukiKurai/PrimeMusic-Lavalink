@@ -17,10 +17,10 @@ module.exports = {
   errorLog: "", 
   nodes: [
      {
-      name: "XX",
-      password: "enteryourcustompass",
-      host: "180.188.226.76",
-      port:  7019,
+      name: "O-O",
+      password: "pokemon",
+      host: "new-york-node-1.vortexcloud.xyz",
+      port:  9376,
       secure: false
     }
   ]
