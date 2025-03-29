@@ -20,7 +20,7 @@ module.exports = {
       name: "Arise",
       password: "avinan",
       host: "new-york-node-1.vortexcloud.xyz",
-      port:  9323,
+      port:  5008,
       secure: false
     }
   ]
