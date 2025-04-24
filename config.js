@@ -16,12 +16,12 @@ module.exports = {
   embedTimeout: 5, 
   errorLog: "", 
   nodes: [
-     {
-      name: "Arise",
-      password: "avinan",
-      host: "new-york-node-1.vortexcloud.xyz",
-      port:  5008,
+{
+      name: "Starttou",
+      password: "yourpasswordhere",
+      host: "ind1.zapto.org",
+      port:  25575,
       secure: false
-    }
+}
   ]
 }
