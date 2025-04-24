@@ -16,12 +16,12 @@ module.exports = {
   embedTimeout: 5, 
   errorLog: "", 
   nodes: [
-{
+   {
       name: "Unknownz",
       password: "unknownz",
       host: "de1.bot-hosting.net",
       port:  20773,
       secure: false
-}
+   }
   ]
 }
