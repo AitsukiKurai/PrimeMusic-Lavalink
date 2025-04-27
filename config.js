@@ -17,10 +17,10 @@ module.exports = {
   errorLog: "", 
   nodes: [
 {
-      name: "MuzammilOPYT",
-      password: "yourpasswordhere",
-      host: "ind1.zapto.org",
-      port:  25575,
+      name: ":D",
+      password: "https://discord.gg/8M2bAHZaQH",
+      host: "dnode2.astrast.host",
+      port:  9869,
       secure: false
 }
   ]
