@@ -18,9 +18,9 @@ module.exports = {
   nodes: [
 {
       name: ":D",
-      password: "https://discord.gg/8M2bAHZaQH",
-      host: "dnode2.astrast.host",
-      port:  9869,
+      password: "yourpasswordhere",
+      host: "ind1.zapto.org",
+      port:  25575,
       secure: false
 }
   ]
