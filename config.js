@@ -18,9 +18,9 @@ module.exports = {
   nodes: [
 {
       name: ":D",
-      password: "NAIGLAVA-dash.techbyte.host",
-      host: "lavahatry4.techbyte.host",
-      port:  3000,
+      password: "youshallnotpass",
+      host: "lavalink.jirayu.net",
+      port:  13592,
       secure: false
 }
   ]
