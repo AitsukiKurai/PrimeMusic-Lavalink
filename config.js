@@ -18,9 +18,9 @@ module.exports = {
   nodes: [
 {
       name: ":D",
-      password: "youshallnotpass",
-      host: "lavalink.jirayu.net",
-      port:  13592,
+      password: "yourpasswordhere",
+      host: "MuzammilOPYT",
+      port:  25575,
       secure: false
 }
   ]
