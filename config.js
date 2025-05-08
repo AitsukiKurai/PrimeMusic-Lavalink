@@ -18,9 +18,9 @@ module.exports = {
   nodes: [
 {
       name: ":D",
-      password: "inosuke",
-      host: "inosuke.69.mu",
-      port:  11622,
+      password: "yourpasswordhere",
+      host: "ind1.zapto.org",
+      port:  25575,
       secure: false
 }
   ]
