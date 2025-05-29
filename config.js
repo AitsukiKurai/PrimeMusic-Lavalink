@@ -18,9 +18,9 @@ module.exports = {
   nodes: [
 {
       name: ":D",
-      password: "wwweasycodero",
-      host: "lavalink-v2.pericsq.ro",
-      port:  6677,
+      password: "inosuke",
+      host: "inosuke.69.mu",
+      port:  3634,
       secure: false
 }
   ]
