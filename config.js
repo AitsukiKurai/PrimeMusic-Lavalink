@@ -17,10 +17,10 @@ module.exports = {
   errorLog: "", 
   nodes: [
 {
-      name: ":D",
-      password: "yourpasswordhere",
-      host: "ind1.zapto.org",
-      port:  25575,
+      name: "GlaceYT",
+      password: "glaceyt",
+      host: "5.39.63.207",
+      port:  8262,
       secure: false
 }
   ]
