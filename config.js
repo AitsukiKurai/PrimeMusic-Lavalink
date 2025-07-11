@@ -18,8 +18,8 @@ module.exports = {
   nodes: [
 {
       name: ":D",
-      password: "anakin",
-      host: "us.apsara.lol",
+      password: "yourpasswordhere",
+      host: "ind1.zapto.org",
       port:  25575,
       secure: false
 }
