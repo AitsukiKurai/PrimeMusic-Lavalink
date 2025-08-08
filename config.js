@@ -19,9 +19,9 @@ module.exports = {
 {
       name: "XD",
       password: "youshallnotpass",
-      host: "lava.kasawa.pro",
-      port:  443,
-      secure: true
+      host: "lavalink.jirayu.net",
+      port:  13592,
+      secure: false
 }
   ]
 }
