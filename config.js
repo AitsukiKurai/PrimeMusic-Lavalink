@@ -19,8 +19,8 @@ module.exports = {
 {
       name: "XD",
       password: "youshallnotpass",
-      host: "lavalink.jirayu.net",
-      port:  13592,
+      host: "gh46.glacierhosting.org",
+      port:  25583,
       secure: false
 }
   ]
