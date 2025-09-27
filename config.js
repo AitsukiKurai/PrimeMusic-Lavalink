@@ -10,7 +10,7 @@ module.exports = {
   setupFilePath: './commands/setup.json',
   commandsDir: './commands',  
   embedColor: "#1db954",
-  activityName: "Tất cả là tại DarkPhoenixMarco" ,
+  activityName: "heh" ,
   ActivityType: "Listening" ,
   SupportServer: "https://discord.gg/xQF9f9yUEM",
   embedTimeout: 5, 
