@@ -18,10 +18,10 @@ module.exports = {
   nodes: [
 {
       name: "XD",
-      password: "youshallnotpass",
-      host: "lava.kasawa.pro",
-      port:  443,
-      secure: true
+      password: "https://camming.xyz",
+      host: "193.226.78.187",
+      port:  6969,
+      secure: false
 }
   ]
 }
