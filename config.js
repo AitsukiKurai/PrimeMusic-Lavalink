@@ -18,9 +18,9 @@ module.exports = {
   nodes: [
 {
       name: "XD",
-      password: "https://camming.xyz",
-      host: "193.226.78.187",
-      port:  6969,
+      password: "cocaine",
+      host: "nexus.voidhosting.vip",
+      port:  6034,
       secure: false
 }
   ]
