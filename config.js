@@ -18,9 +18,9 @@ module.exports = {
   nodes: [
 {
       name: "XD",
-      password: "susara",
-      host: "pnode1.danbot.host",
-      port:  1226,
+      password: "AYANO",
+      host: "194.58.66.44",
+      port:  3660,
       secure: false
 }
   ]
