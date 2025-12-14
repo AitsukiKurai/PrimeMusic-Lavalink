@@ -18,9 +18,9 @@ module.exports = {
   nodes: [
 {
       name: "XD",
-      password: "cocaine",
-      host: "nexus.voidhosting.vip",
-      port:  6004,
+      password: "susara",
+      host: "pnode1.danbot.host",
+      port:  1226,
       secure: false
 }
   ]
