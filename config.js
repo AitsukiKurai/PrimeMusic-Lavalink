@@ -19,7 +19,7 @@ module.exports = {
 {
       name: "XD",
       password: "Sakura",
-      host: "sgp.lavalink.yumistack.net",
+      host: "ca.lavalink.yumistack.net",
       port:  2333,
       secure: false
 }
