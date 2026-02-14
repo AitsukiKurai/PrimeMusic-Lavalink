@@ -18,9 +18,9 @@ module.exports = {
   nodes: [
 {
       name: "XD",
-      password: "Kaun.Yuvraj",
-      host: "pnode1.danbot.host",
-      port:  1186,
+      password: "Sakura",
+      host: "sgp.lavalink.yumistack.net",
+      port:  2333,
       secure: false
 }
   ]
