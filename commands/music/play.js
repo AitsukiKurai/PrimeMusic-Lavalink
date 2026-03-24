@@ -61,7 +61,7 @@ module.exports = {
 
             const query = interaction.options.getString('name');
 
-            await interaction.deferReply();
+            await interaction.reply();
 
             const existingPlayer = client.riffy.players.get(interaction.guildId);
             const voiceCheck = await checkVC(interaction, existingPlayer);
